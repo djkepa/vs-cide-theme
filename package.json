@@ -1,0 +1,31 @@
+{
+  "name": "kepa-theme",
+  "displayName": "Kepa Theme",
+  "description": "Kepa Theme!",
+  "version": "1.0.0",
+  "publisher": "Kepa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djkepa/vs-cide-theme.git"
+  },
+  "keywords": [
+    "kepa theme",
+    "theme",
+    "kepa"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kepa",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kepa-color-theme.json"
+      }
+    ]
+  }
+}
