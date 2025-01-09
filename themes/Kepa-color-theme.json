@@ -600,60 +600,24 @@
       }
     },
     {
-      "name": "HTML Text Content",
-      "scope": [
-        "text.html.basic entity.other.inherited-class",
-        "string.quoted.double.html",
-        "string.quoted.single.html",
-        "text.html.markdown",
-        "meta.embedded.block.html"
-      ],
+      "name": "Object Keys (e.g., verticalAlign)",
+      "scope": ["meta.object-literal.key.tsx", "meta.object.member.tsx", "meta.objectliteral.tsx"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#9F50FF"
       }
     },
     {
-      "name": "JSX/TSX Text Content",
-      "scope": [
-        "string.quoted.double.jsx",
-        "string.quoted.single.jsx",
-        "string.quoted.double.tsx",
-        "string.quoted.single.tsx",
-        "text.html.markdown",
-        "meta.embedded.line.jsx",
-        "meta.embedded.line.tsx"
-      ],
+      "name": "Strings in JSX/TSX Attributes",
+      "scope": ["string.quoted.double.tsx", "string.quoted.single.tsx"],
       "settings": {
-        "foreground": "#FFFFFF" // Bela boja za tekst
+        "foreground": "#49E9A6"
       }
     },
     {
-      "name": "JavaScript/TypeScript Text Content",
-      "scope": [
-        "meta.template.expression.js",
-        "meta.template.expression.ts",
-        "meta.embedded.block.js",
-        "meta.embedded.block.ts"
-      ],
+      "name": "JSX/TSX Child Text",
+      "scope": ["meta.jsx.children", "meta.jsx.children.tsx"],
       "settings": {
-        "foreground": "#FFFFFF" // Bela boja za tekst
-      }
-    },
-    {
-      "name": "Universal Text Content",
-      "scope": [
-        "meta.tag.html",
-        "meta.tag.jsx",
-        "meta.tag.tsx",
-        "text.html.basic",
-        "string",
-        "meta.embedded.block",
-        "meta.embedded.line",
-        "text.html.markdown",
-        "text.xml"
-      ],
-      "settings": {
-        "foreground": "#FFFFFF" // Bela boja za tekst
+        "foreground": "#e3e3e3"
       }
     },
     {
